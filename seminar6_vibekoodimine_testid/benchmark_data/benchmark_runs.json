@@ -1,0 +1,3287 @@
+[
+  {
+    "saved_at": "2026-03-02 14:45:31",
+    "results": {
+      "total_cases": 74,
+      "retrieval_correct": 49,
+      "retrieval_incorrect": 25,
+      "llm_correct": 46,
+      "llm_incorrect": 28,
+      "case_results": [
+        {
+          "case": {
+            "row_number": 2,
+            "query": "Soovin õppida masinõpet",
+            "expected_ids": [
+              "MTAT.03.227",
+              "LTAT.02.004"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.03.227",
+              "SVNC.00.085",
+              "LTAT.02.023",
+              "LTAT.02.004",
+              "LTAT.02.040"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVNC.00.085",
+              "LTAT.02.023",
+              "LTAT.02.040"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MTAT.03.227",
+              "SVNC.00.085",
+              "LTAT.02.023",
+              "LTAT.02.004",
+              "LTAT.02.040"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVNC.00.085",
+              "LTAT.02.023",
+              "LTAT.02.040"
+            ],
+            "raw_text": "{\"course_ids\": [\"MTAT.03.227\", \"SVNC.00.085\", \"LTAT.02.023\", \"LTAT.02.004\", \"LTAT.02.040\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 3,
+            "query": "Otsin programmeerimise kursusi algajatele",
+            "expected_ids": [
+              "LTAT.03.001",
+              "MTAT.03.256"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVNC.00.054",
+              "MTAT.03.236",
+              "LTAT.03.001",
+              "LTAT.03.001_1",
+              "MTAT.03.236_1"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MTAT.03.256"
+            ],
+            "unexpected_ids": [
+              "SVNC.00.054",
+              "MTAT.03.236",
+              "LTAT.03.001_1",
+              "MTAT.03.236_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVNC.00.054",
+              "MTAT.03.236",
+              "LTAT.03.001",
+              "LTAT.03.001_1",
+              "MTAT.03.236_1"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MTAT.03.256"
+            ],
+            "unexpected_ids": [
+              "SVNC.00.054",
+              "MTAT.03.236",
+              "LTAT.03.001_1",
+              "MTAT.03.236_1"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVNC.00.054\", \"MTAT.03.236\", \"LTAT.03.001\", \"LTAT.03.001_1\", \"MTAT.03.236_1\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 4,
+            "query": "Millised andmebaasidega seotud ained on saadaval?",
+            "expected_ids": [
+              "LTAT.03.004",
+              "MTAT.03.105"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTAT.03.004",
+              "HVLC.02.005",
+              "P2NC.01.096",
+              "MTAT.03.105",
+              "SVNC.00.307"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "HVLC.02.005",
+              "P2NC.01.096",
+              "SVNC.00.307"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.03.004",
+              "P2NC.01.096",
+              "MTAT.03.105",
+              "SVNC.00.307"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "P2NC.01.096",
+              "SVNC.00.307"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.03.004\", \"P2NC.01.096\", \"MTAT.03.105\", \"SVNC.00.307\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 5,
+            "query": "Tahan õppida tehisintellekti",
+            "expected_ids": [
+              "LTAT.01.003"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTAT.01.003",
+              "LTAT.02.024",
+              "OIEO.06.091",
+              "LTAT.02.039",
+              "FLFI.04.105"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.02.024",
+              "OIEO.06.091",
+              "LTAT.02.039",
+              "FLFI.04.105"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.01.003",
+              "LTAT.02.024",
+              "OIEO.06.091",
+              "LTAT.02.039",
+              "FLFI.04.105"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.02.024",
+              "OIEO.06.091",
+              "LTAT.02.039",
+              "FLFI.04.105"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.01.003\", \"LTAT.02.024\", \"OIEO.06.091\", \"LTAT.02.039\", \"FLFI.04.105\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 6,
+            "query": "Soovitan mulle filosoofia aineid",
+            "expected_ids": [
+              "FLFI.00.001",
+              "FLFI.01.103"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "FLFI.00.101",
+              "FLFI.00.106",
+              "FLFI.00.001",
+              "FLFI.04.060",
+              "FLFI.01.011"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "FLFI.01.103"
+            ],
+            "unexpected_ids": [
+              "FLFI.00.101",
+              "FLFI.00.106",
+              "FLFI.04.060",
+              "FLFI.01.011"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "FLFI.00.101",
+              "FLFI.00.106",
+              "FLFI.00.001",
+              "FLFI.04.060",
+              "FLFI.01.011"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "FLFI.01.103"
+            ],
+            "unexpected_ids": [
+              "FLFI.00.101",
+              "FLFI.00.106",
+              "FLFI.04.060",
+              "FLFI.01.011"
+            ],
+            "raw_text": "{\"course_ids\": [\"FLFI.00.101\", \"FLFI.00.106\", \"FLFI.00.001\", \"FLFI.04.060\", \"FLFI.01.011\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 7,
+            "query": "Otsin robootika kursust",
+            "expected_ids": [
+              "LOTI.05.032",
+              "LOTI.05.057"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088",
+              "LOTI.05.057",
+              "LOTI.05.032",
+              "SVHI.02.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088",
+              "SVHI.02.025"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088",
+              "LOTI.05.057",
+              "LOTI.05.032",
+              "SVHI.02.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088",
+              "SVHI.02.025"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.010\", \"LOTI.05.088\", \"LOTI.05.057\", \"LOTI.05.032\", \"SVHI.02.025\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 8,
+            "query": "Soovin õppida Pythonis programmeerimist",
+            "expected_ids": [
+              "HVEE.04.028",
+              "HVEE.04.004"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "HVEE.04.028",
+              "P2NC.01.083_1",
+              "P2NC.01.083",
+              "LTOM.02.041",
+              "SVNC.00.228"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVEE.04.004"
+            ],
+            "unexpected_ids": [
+              "P2NC.01.083_1",
+              "P2NC.01.083",
+              "LTOM.02.041",
+              "SVNC.00.228"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "HVEE.04.028",
+              "P2NC.01.083_1",
+              "P2NC.01.083",
+              "LTOM.02.041"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVEE.04.004"
+            ],
+            "unexpected_ids": [
+              "P2NC.01.083_1",
+              "P2NC.01.083",
+              "LTOM.02.041"
+            ],
+            "raw_text": "{\"course_ids\": [\"HVEE.04.028\", \"P2NC.01.083_1\", \"P2NC.01.083\", \"LTOM.02.041\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 9,
+            "query": "Tahaks leida kursust, kus saab maalida",
+            "expected_ids": [
+              "P2VK.04.518"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVHI.02.024",
+              "P2VK.04.518",
+              "FLAJ.05.112",
+              "MVSF.00.007",
+              "HTOS.02.241"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVHI.02.024",
+              "FLAJ.05.112",
+              "MVSF.00.007",
+              "HTOS.02.241"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVHI.02.024"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "P2VK.04.518"
+            ],
+            "unexpected_ids": [
+              "SVHI.02.024"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVHI.02.024\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 10,
+            "query": "Soovita mulle kursust, kus saab sporti teha",
+            "expected_ids": [
+              "KKSP.00.026",
+              "KKSP.00.027"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "KKSP.00.026",
+              "KKSP.00.027",
+              "KKSB.01.034",
+              "KKSB.01.036",
+              "KKSB.01.034_1"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "KKSB.01.034",
+              "KKSB.01.036",
+              "KKSB.01.034_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "KKSP.00.026",
+              "KKSP.00.027",
+              "KKSB.01.034",
+              "KKSB.01.036",
+              "KKSB.01.034_1"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "KKSB.01.034",
+              "KKSB.01.036",
+              "KKSB.01.034_1"
+            ],
+            "raw_text": "{\"course_ids\": [\"KKSP.00.026\", \"KKSP.00.027\", \"KKSB.01.034\", \"KKSB.01.036\", \"KKSB.01.034_1\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 11,
+            "query": "Tahaksin sissejuhatavat kursust neurovõrkude teemal",
+            "expected_ids": [
+              "LTAT.02.001"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "ARFS.01.069",
+              "MVBS.03.006",
+              "LTAT.02.001",
+              "SVNC.00.085",
+              "ARNR.01.031"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "ARFS.01.069",
+              "MVBS.03.006",
+              "SVNC.00.085",
+              "ARNR.01.031"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.02.001",
+              "SVNC.00.085"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVNC.00.085"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.02.001\", \"SVNC.00.085\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 12,
+            "query": "Kas saan õppida arvutimänge tegema?",
+            "expected_ids": [
+              "MTAT.03.263"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.03.263",
+              "LTAT.02.019",
+              "LTAT.02.018",
+              "MTAT.03.315",
+              "LOTI.05.021"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.02.019",
+              "LTAT.02.018",
+              "MTAT.03.315",
+              "LOTI.05.021"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MTAT.03.263"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"MTAT.03.263\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 13,
+            "query": "Tahaksin õppida arvutite riistvara kohta",
+            "expected_ids": [
+              "LOFY.03.001"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.022",
+              "LOTI.05.021",
+              "LOFY.03.001",
+              "LOFY.03.012",
+              "LOFY.03.079"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.022",
+              "LOTI.05.021",
+              "LOFY.03.012",
+              "LOFY.03.079"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.021",
+              "LOFY.03.001",
+              "LOFY.03.012",
+              "LOFY.03.079"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.021",
+              "LOFY.03.012",
+              "LOFY.03.079"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.021\", \"LOFY.03.001\", \"LOFY.03.012\", \"LOFY.03.079\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 14,
+            "query": "Tahaksin lennata droonidega",
+            "expected_ids": [
+              "LOTI.05.109"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.109",
+              "LOTI.05.091",
+              "LTOM.03.034",
+              "MVSF.00.007",
+              "LOTI.05.088"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.091",
+              "LTOM.03.034",
+              "MVSF.00.007",
+              "LOTI.05.088"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.109",
+              "LOTI.05.091"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.091"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.109\", \"LOTI.05.091\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 15,
+            "query": "Tahan õppida hispaania keelt",
+            "expected_ids": [
+              "HVLC.03.026",
+              "HVLC.03.027"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "HVLC.03.027_1",
+              "HVLC.03.026_1",
+              "HVLC.03.027",
+              "FLLC.03.001",
+              "FLKE.05.063"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVLC.03.026"
+            ],
+            "unexpected_ids": [
+              "HVLC.03.027_1",
+              "HVLC.03.026_1",
+              "FLLC.03.001",
+              "FLKE.05.063"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "HVLC.03.027_1",
+              "HVLC.03.026_1",
+              "HVLC.03.027",
+              "FLLC.03.001",
+              "FLKE.05.063"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVLC.03.026"
+            ],
+            "unexpected_ids": [
+              "HVLC.03.027_1",
+              "HVLC.03.026_1",
+              "FLLC.03.001",
+              "FLKE.05.063"
+            ],
+            "raw_text": "{\"course_ids\": [\"HVLC.03.027_1\", \"HVLC.03.026_1\", \"HVLC.03.027\", \"FLLC.03.001\", \"FLKE.05.063\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 16,
+            "query": "Tahan omandada poliitilisi teadmisi",
+            "expected_ids": [
+              "SOZU.04.053"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SOZU.04.053",
+              "SORG.00.031",
+              "SVJS.00.098",
+              "SORG.00.003",
+              "SVJS.00.099"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SORG.00.031",
+              "SVJS.00.098",
+              "SORG.00.003",
+              "SVJS.00.099"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SOZU.04.053",
+              "SORG.00.031",
+              "SVJS.00.098",
+              "SORG.00.003",
+              "SVJS.00.099"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SORG.00.031",
+              "SVJS.00.098",
+              "SORG.00.003",
+              "SVJS.00.099"
+            ],
+            "raw_text": "{\"course_ids\": [\"SOZU.04.053\", \"SORG.00.031\", \"SVJS.00.098\", \"SORG.00.003\", \"SVJS.00.099\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 17,
+            "query": "Kuidas ma saaksin arendada oma eesti keele oskust?",
+            "expected_ids": [
+              "P2NC.00.949",
+              "P2NC.00.946"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "P2NC.00.949",
+              "FLLC.09.010",
+              "FLLC.09.010_1",
+              "P2NC.00.946",
+              "HVLC.09.053_1"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "FLLC.09.010",
+              "FLLC.09.010_1",
+              "HVLC.09.053_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "P2NC.00.949",
+              "FLLC.09.010",
+              "FLLC.09.010_1",
+              "P2NC.00.946",
+              "HVLC.09.053_1"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "FLLC.09.010",
+              "FLLC.09.010_1",
+              "HVLC.09.053_1"
+            ],
+            "raw_text": "{\"course_ids\": [\"P2NC.00.949\", \"FLLC.09.010\", \"FLLC.09.010_1\", \"P2NC.00.946\", \"HVLC.09.053_1\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 18,
+            "query": "Mis ained aitavad kaitsta minu arvutit?",
+            "expected_ids": [
+              "LTAT.03.024",
+              "LTAT.06.002"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.07.015",
+              "LTAT.03.024",
+              "LOFY.03.001",
+              "LOFY.03.079",
+              "LTAT.06.002"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTAT.07.015",
+              "LOFY.03.001",
+              "LOFY.03.079"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.03.024",
+              "LOFY.03.001",
+              "LOFY.03.079",
+              "LTAT.06.002"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOFY.03.001",
+              "LOFY.03.079"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.03.024\", \"LOFY.03.001\", \"LOFY.03.079\", \"LTAT.06.002\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 19,
+            "query": "Ma tahaksin looduses rohkem liikuda",
+            "expected_ids": [
+              "KKSP.00.027",
+              "KKSP.00.026"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTOM.01.005",
+              "KKSP.00.027",
+              "KKSP.00.026",
+              "KKSB.01.034_1",
+              "KKSB.01.034"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTOM.01.005",
+              "KKSB.01.034_1",
+              "KKSB.01.034"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTOM.01.005",
+              "KKSP.00.027",
+              "KKSP.00.026",
+              "KKSB.01.034_1",
+              "KKSB.01.034"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTOM.01.005",
+              "KKSB.01.034_1",
+              "KKSB.01.034"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTOM.01.005\", \"KKSP.00.027\", \"KKSP.00.026\", \"KKSB.01.034_1\", \"KKSB.01.034\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 20,
+            "query": "Kas mingites ainetes saab Java keelt õppida?",
+            "expected_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVNC.00.335",
+              "LTAT.03.026",
+              "HVLC.08.008",
+              "HVLC.08.008_1",
+              "LTAT.03.007"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.03.026",
+              "HVLC.08.008",
+              "HVLC.08.008_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"SVNC.00.335\", \"LTAT.03.007\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 21,
+            "query": "Tahan õppida pilverakenduste kohta",
+            "expected_ids": [
+              "LTAT.06.008",
+              "LTAT.06.025"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTAT.06.008",
+              "LTAT.06.025",
+              "LOOM.03.087",
+              "LTOM.02.033",
+              "LTOM.02.061"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOOM.03.087",
+              "LTOM.02.033",
+              "LTOM.02.061"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.06.008",
+              "LTAT.06.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LTAT.06.008\", \"LTAT.06.025\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 22,
+            "query": "Tahan õppida mobiilirakenduste kohta",
+            "expected_ids": [
+              "SVNC.00.057",
+              "SVNC.00.301",
+              "LTAT.06.021"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVNC.00.301",
+              "SVNC.00.057",
+              "LTAT.06.021",
+              "LTOM.02.050",
+              "LOTI.05.060"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTOM.02.050",
+              "LOTI.05.060"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVNC.00.301",
+              "SVNC.00.057",
+              "LTAT.06.021"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"SVNC.00.301\", \"SVNC.00.057\", \"LTAT.06.021\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 23,
+            "query": "Tahan õppida närvivõrkude kohta",
+            "expected_ids": [
+              "LTAT.02.001",
+              "SVNC.00.085",
+              "LTAT.01.011"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "ARFS.01.069",
+              "MVBS.03.006",
+              "ARNR.01.024",
+              "ARNR.01.028",
+              "SVHI.03.035"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.02.001",
+              "SVNC.00.085",
+              "LTAT.01.011"
+            ],
+            "unexpected_ids": [
+              "ARFS.01.069",
+              "MVBS.03.006",
+              "ARNR.01.024",
+              "ARNR.01.028",
+              "SVHI.03.035"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "ARFS.01.069",
+              "MVBS.03.006"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.02.001",
+              "SVNC.00.085",
+              "LTAT.01.011"
+            ],
+            "unexpected_ids": [
+              "ARFS.01.069",
+              "MVBS.03.006"
+            ],
+            "raw_text": "{\"course_ids\": [\"ARFS.01.069\", \"MVBS.03.006\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 24,
+            "query": "Tahan teha origamit",
+            "expected_ids": [
+              "LTMS.00.086"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTMS.00.086",
+              "LOKT.09.015",
+              "LTKT.09.003",
+              "MVSF.00.007",
+              "LOKT.09.042"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOKT.09.015",
+              "LTKT.09.003",
+              "MVSF.00.007",
+              "LOKT.09.042"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTMS.00.086"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LTMS.00.086\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 25,
+            "query": "Tahan ehitada lumememme",
+            "expected_ids": [],
+            "expects_empty": true,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "P2VK.04.292",
+              "LOTI.05.023",
+              "HVKU.04.053",
+              "LTFY.02.010",
+              "HVVK.04.098"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "P2VK.04.292",
+              "LOTI.05.023",
+              "HVKU.04.053",
+              "LTFY.02.010",
+              "HVVK.04.098"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "HVKU.04.053"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "HVKU.04.053"
+            ],
+            "raw_text": "{\"course_ids\": [\"HVKU.04.053\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 26,
+            "query": "Mind huvitab kosmos",
+            "expected_ids": [
+              "LTTO.00.011",
+              "LTTO.00.019"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTTO.00.011",
+              "LTTO.00.030",
+              "LTTO.00.019",
+              "LTTO.00.018",
+              "LTTO.00.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTTO.00.030",
+              "LTTO.00.018",
+              "LTTO.00.025"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTTO.00.011",
+              "LTTO.00.030",
+              "LTTO.00.019",
+              "LTTO.00.018",
+              "LTTO.00.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTTO.00.030",
+              "LTTO.00.018",
+              "LTTO.00.025"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTTO.00.011\", \"LTTO.00.030\", \"LTTO.00.019\", \"LTTO.00.018\", \"LTTO.00.025\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 27,
+            "query": "soovin aineid kus saan ise roboteid ehitada ja programmeerida",
+            "expected_ids": [
+              "LOTI.05.010",
+              "LOTI.05.023"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVHI.02.025",
+              "LOTI.05.010",
+              "LOTI.05.023",
+              "LOTI.05.057",
+              "LOTI.05.032"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVHI.02.025",
+              "LOTI.05.057",
+              "LOTI.05.032"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVHI.02.025",
+              "LOTI.05.010",
+              "LOTI.05.023",
+              "LOTI.05.057",
+              "LOTI.05.032"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVHI.02.025",
+              "LOTI.05.057",
+              "LOTI.05.032"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVHI.02.025\", \"LOTI.05.010\", \"LOTI.05.023\", \"LOTI.05.057\", \"LOTI.05.032\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 28,
+            "query": "soovin ainet kus saan laulda",
+            "expected_ids": [
+              "MV00.00.017",
+              "MV00.00.018"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "P2VK.02.728",
+              "MV00.00.018",
+              "MV00.00.017",
+              "HVVK.00.122",
+              "P2VK.02.524"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "P2VK.02.728",
+              "HVVK.00.122",
+              "P2VK.02.524"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MV00.00.018",
+              "MV00.00.017"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"MV00.00.018\", \"MV00.00.017\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 29,
+            "query": "kasulikke aineid ajakirjanduse suunalt",
+            "expected_ids": [
+              "SVUH.00.213",
+              "SVUH.00.110"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVUH.00.213",
+              "SVUH.00.110",
+              "SVUH.00.111",
+              "SVUH.00.292",
+              "SVUH.00.153"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVUH.00.111",
+              "SVUH.00.292",
+              "SVUH.00.153"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVUH.00.213",
+              "SVUH.00.110",
+              "SVUH.00.111",
+              "SVUH.00.292",
+              "SVUH.00.153"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVUH.00.111",
+              "SVUH.00.292",
+              "SVUH.00.153"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVUH.00.213\", \"SVUH.00.110\", \"SVUH.00.111\", \"SVUH.00.292\", \"SVUH.00.153\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 30,
+            "query": "tahan õppida eesti keelt",
+            "expected_ids": [
+              "HVLC.09.060",
+              "HVLC.09.065"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "HVLC.09.038",
+              "HVLC.09.029_1",
+              "HVLC.09.029",
+              "HVLC.09.065",
+              "HVLC.09.060"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "HVLC.09.038",
+              "HVLC.09.029_1",
+              "HVLC.09.029"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "HVLC.09.038",
+              "HVLC.09.029_1",
+              "HVLC.09.029",
+              "HVLC.09.065",
+              "HVLC.09.060"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "HVLC.09.038",
+              "HVLC.09.029_1",
+              "HVLC.09.029"
+            ],
+            "raw_text": "{\"course_ids\": [\"HVLC.09.038\", \"HVLC.09.029_1\", \"HVLC.09.029\", \"HVLC.09.065\", \"HVLC.09.060\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 31,
+            "query": "Tahan õppida uisutamist",
+            "expected_ids": [],
+            "expects_empty": true,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "KKSP.05.261",
+              "KKSP.04.102_1",
+              "KKSP.05.265",
+              "KKSP.04.102",
+              "LOFY.05.004"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "KKSP.05.261",
+              "KKSP.04.102_1",
+              "KKSP.05.265",
+              "KKSP.04.102",
+              "LOFY.05.004"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "KKSP.05.265"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "KKSP.05.265"
+            ],
+            "raw_text": "{\"course_ids\": [\"KKSP.05.265\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 32,
+            "query": "Tahan kala püüda",
+            "expected_ids": [],
+            "expects_empty": true,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOMI.00.004",
+              "LOMI.00.003",
+              "KKSP.04.102",
+              "KKSP.04.102_1",
+              "LTOM.04.010"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOMI.00.004",
+              "LOMI.00.003",
+              "KKSP.04.102",
+              "KKSP.04.102_1",
+              "LTOM.04.010"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOMI.00.004"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOMI.00.004"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOMI.00.004\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 33,
+            "query": "Tahan eraisikuna oma rahaasjadega paremini toime tulla",
+            "expected_ids": [
+              "MJJV.10.063"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MJJV.10.063",
+              "OIEO.06.020",
+              "LOTI.05.102",
+              "HVVK.00.090",
+              "HVVK.02.062"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "OIEO.06.020",
+              "LOTI.05.102",
+              "HVVK.00.090",
+              "HVVK.02.062"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MJJV.10.063"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"MJJV.10.063\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 34,
+            "query": "Tahan õppida Javas programmeerima",
+            "expected_ids": [
+              "LTAT.03.007",
+              "LTAT.03.003"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007",
+              "LTAT.03.003",
+              "LTAT.03.026",
+              "SVMJ.04.020"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVNC.00.335",
+              "LTAT.03.026",
+              "SVMJ.04.020"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007",
+              "LTAT.03.003"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVNC.00.335"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVNC.00.335\", \"LTAT.03.007\", \"LTAT.03.003\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 35,
+            "query": "Tahan õppida ettevõtluse kohta",
+            "expected_ids": [
+              "MJCV.00.014"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "P2NC.01.050",
+              "SVPC.01.074",
+              "MJJV.11.001",
+              "MJJV.03.184",
+              "MJJV.03.184_1"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MJCV.00.014"
+            ],
+            "unexpected_ids": [
+              "P2NC.01.050",
+              "SVPC.01.074",
+              "MJJV.11.001",
+              "MJJV.03.184",
+              "MJJV.03.184_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "P2NC.01.050",
+              "SVPC.01.074",
+              "MJJV.11.001",
+              "MJJV.03.184",
+              "MJJV.03.184_1"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MJCV.00.014"
+            ],
+            "unexpected_ids": [
+              "P2NC.01.050",
+              "SVPC.01.074",
+              "MJJV.11.001",
+              "MJJV.03.184",
+              "MJJV.03.184_1"
+            ],
+            "raw_text": "{\"course_ids\": [\"P2NC.01.050\", \"SVPC.01.074\", \"MJJV.11.001\", \"MJJV.03.184\", \"MJJV.03.184_1\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 36,
+            "query": "t e h i s i n t e l l e k t i a i n e",
+            "expected_ids": [
+              "LTAT.01.003"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "OIEO.06.091",
+              "HVLC.09.052",
+              "FLKE.03.121",
+              "OIAO.05.074",
+              "MTAT.03.206"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.01.003"
+            ],
+            "unexpected_ids": [
+              "OIEO.06.091",
+              "HVLC.09.052",
+              "FLKE.03.121",
+              "OIAO.05.074",
+              "MTAT.03.206"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "OIEO.06.091"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.01.003"
+            ],
+            "unexpected_ids": [
+              "OIEO.06.091"
+            ],
+            "raw_text": "{\"course_ids\": [\"OIEO.06.091\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 37,
+            "query": "Funktsionaalne programmeerimine/analüüs",
+            "expected_ids": [
+              "MTMM.00.095",
+              "LTAT.03.019"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTAT.03.019",
+              "MTMM.00.301",
+              "MTMM.00.095",
+              "MTAT.03.286",
+              "HVEE.04.028"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTMM.00.301",
+              "MTAT.03.286",
+              "HVEE.04.028"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.03.019",
+              "MTMM.00.301",
+              "MTMM.00.095"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTMM.00.301"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.03.019\", \"MTMM.00.301\", \"MTMM.00.095\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 38,
+            "query": "tahan rakendada aid oma projektis",
+            "expected_ids": [
+              "LTAT.02.039"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MJRI.02.065",
+              "LTAT.02.039",
+              "LTFY.03.007",
+              "HVKU.00.013",
+              "HVKU.00.013_1"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MJRI.02.065",
+              "LTFY.03.007",
+              "HVKU.00.013",
+              "HVKU.00.013_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MJRI.02.065",
+              "LTAT.02.039"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MJRI.02.065"
+            ],
+            "raw_text": "{\"course_ids\": [\"MJRI.02.065\", \"LTAT.02.039\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 39,
+            "query": "tahan saada rikkaks, soovita vastav kursus",
+            "expected_ids": [
+              "LOTI.05.102"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.102",
+              "MVSF.00.007",
+              "P2PC.00.630",
+              "LTOM.03.021",
+              "SVMJ.04.027"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MVSF.00.007",
+              "P2PC.00.630",
+              "LTOM.03.021",
+              "SVMJ.04.027"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.102"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.102\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 40,
+            "query": "tahan saada poliitikuks",
+            "expected_ids": [
+              "SOZU.04.053"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SORG.00.031",
+              "SORG.00.069_1",
+              "SORG.00.069",
+              "FLFI.02.008",
+              "SOZU.04.053"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SORG.00.031",
+              "SORG.00.069_1",
+              "SORG.00.069",
+              "FLFI.02.008"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SORG.00.031",
+              "FLFI.02.008",
+              "SOZU.04.053"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SORG.00.031",
+              "FLFI.02.008"
+            ],
+            "raw_text": "{\"course_ids\": [\"SORG.00.031\", \"FLFI.02.008\", \"SOZU.04.053\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 41,
+            "query": "tahan õppida putukate kohta",
+            "expected_ids": [
+              "LOOM.04.028",
+              "LTOM.04.003",
+              "LTOM.04.010"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOOM.04.028",
+              "LTOM.04.010",
+              "LTOM.04.003",
+              "LOOM.01.038",
+              "LOOM.00.033"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOOM.01.038",
+              "LOOM.00.033"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOOM.04.028",
+              "LTOM.04.010",
+              "LTOM.04.003"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOOM.04.028\", \"LTOM.04.010\", \"LTOM.04.003\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 42,
+            "query": "soovin erinevat tüüpi mõtlemise kohta õppida",
+            "expected_ids": [
+              "SVUH.00.321",
+              "FLFI.00.102"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVUH.00.321",
+              "LTAT.05.029",
+              "FLFI.00.102",
+              "HVVK.04.154",
+              "LOFY.01.070"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.05.029",
+              "HVVK.04.154",
+              "LOFY.01.070"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVUH.00.321",
+              "FLFI.00.102",
+              "LOFY.01.070"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOFY.01.070"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVUH.00.321\", \"FLFI.00.102\", \"LOFY.01.070\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 43,
+            "query": "soovin teada, miks klaas katki läheb",
+            "expected_ids": [
+              "HVVK.01.222",
+              "LTFY.02.002"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "ARFA.02.132",
+              "LOFY.02.025",
+              "ARSI.01.015",
+              "LOKT.09.016",
+              "LOKT.02.020"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVVK.01.222",
+              "LTFY.02.002"
+            ],
+            "unexpected_ids": [
+              "ARFA.02.132",
+              "LOFY.02.025",
+              "ARSI.01.015",
+              "LOKT.09.016",
+              "LOKT.02.020"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOKT.09.016"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVVK.01.222",
+              "LTFY.02.002"
+            ],
+            "unexpected_ids": [
+              "LOKT.09.016"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOKT.09.016\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 44,
+            "query": "soovin ehitada iglu",
+            "expected_ids": [],
+            "expects_empty": true,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "HVVK.04.110",
+              "HVVK.04.098",
+              "HVVK.04.098_1",
+              "HVAJ.01.004",
+              "LOTI.05.021"
+            ],
+            "passed": false,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "HVVK.04.110",
+              "HVVK.04.098",
+              "HVVK.04.098_1",
+              "HVAJ.01.004",
+              "LOTI.05.021"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": []}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 45,
+            "query": "võrkpalli mängimine",
+            "expected_ids": [
+              "KKSP.00.026",
+              "KKSP.00.027"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "KKSP.05.287",
+              "KKSP.05.309",
+              "ARSM.01.045",
+              "LOTI.05.023",
+              "MVSF.00.005"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "KKSP.00.026",
+              "KKSP.00.027"
+            ],
+            "unexpected_ids": [
+              "KKSP.05.287",
+              "KKSP.05.309",
+              "ARSM.01.045",
+              "LOTI.05.023",
+              "MVSF.00.005"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "KKSP.05.287",
+              "KKSP.05.309"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "KKSP.00.026",
+              "KKSP.00.027"
+            ],
+            "unexpected_ids": [
+              "KKSP.05.287",
+              "KKSP.05.309"
+            ],
+            "raw_text": "{\"course_ids\": [\"KKSP.05.287\", \"KKSP.05.309\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 46,
+            "query": "Tahan alustada kvantfüüsika õppimist",
+            "expected_ids": [
+              "LTFY.04.012"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOFY.04.073",
+              "LTFY.04.012",
+              "LOFY.04.041",
+              "LOFY.03.030",
+              "LOFY.01.114"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOFY.04.073",
+              "LOFY.04.041",
+              "LOFY.03.030",
+              "LOFY.01.114"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOFY.04.073",
+              "LTFY.04.012",
+              "LOFY.04.041",
+              "LOFY.03.030",
+              "LOFY.01.114"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOFY.04.073",
+              "LOFY.04.041",
+              "LOFY.03.030",
+              "LOFY.01.114"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOFY.04.073\", \"LTFY.04.012\", \"LOFY.04.041\", \"LOFY.03.030\", \"LOFY.01.114\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 47,
+            "query": "Tahan linnuvaatlusega tegeleda",
+            "expected_ids": [
+              "LOOM.04.015"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOOM.04.015",
+              "LTOM.04.010",
+              "LTOM.04.011",
+              "HTPK.02.102",
+              "LOOM.00.033"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTOM.04.010",
+              "LTOM.04.011",
+              "HTPK.02.102",
+              "LOOM.00.033"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOOM.04.015"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOOM.04.015\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 48,
+            "query": "Oman saksa keeles B2 taset, mis kursuseid võiksin edasi võtta?",
+            "expected_ids": [
+              "HVLC.04.014"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "FLKE.02.278",
+              "HVLC.04.013",
+              "HVLC.04.011",
+              "HVLC.04.012",
+              "HVLC.04.010"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVLC.04.014"
+            ],
+            "unexpected_ids": [
+              "FLKE.02.278",
+              "HVLC.04.013",
+              "HVLC.04.011",
+              "HVLC.04.012",
+              "HVLC.04.010"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "HVLC.04.013"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "HVLC.04.014"
+            ],
+            "unexpected_ids": [
+              "HVLC.04.013"
+            ],
+            "raw_text": "{\"course_ids\": [\"HVLC.04.013\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 49,
+            "query": "Tahan õppida arvutimängude ajaloo kohta",
+            "expected_ids": [
+              "LTAT.02.019"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTAT.02.019",
+              "MTAT.03.263",
+              "MTMM.00.046",
+              "LTAT.06.023",
+              "LTAT.05.038"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTAT.03.263",
+              "MTMM.00.046",
+              "LTAT.06.023",
+              "LTAT.05.038"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.02.019",
+              "LTAT.06.023"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.06.023"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.02.019\", \"LTAT.06.023\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 50,
+            "query": "Sooviks teha äriplaani",
+            "expected_ids": [
+              "MJCV.00.027"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MJCV.00.027",
+              "SVPC.01.074",
+              "P2NC.01.050",
+              "MJCV.00.036",
+              "MJCV.00.005_1"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVPC.01.074",
+              "P2NC.01.050",
+              "MJCV.00.036",
+              "MJCV.00.005_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MJCV.00.027"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"MJCV.00.027\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 51,
+            "query": "soovin kosmoseteemalisi aineid õppida",
+            "expected_ids": [
+              "LTTO.00.018"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTTO.00.030",
+              "LTTO.00.011",
+              "LTTO.00.035",
+              "LTTO.00.018",
+              "LTTO.00.032"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTTO.00.030",
+              "LTTO.00.011",
+              "LTTO.00.035",
+              "LTTO.00.032"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTTO.00.030",
+              "LTTO.00.011",
+              "LTTO.00.035",
+              "LTTO.00.018",
+              "LTTO.00.032"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTTO.00.030",
+              "LTTO.00.011",
+              "LTTO.00.035",
+              "LTTO.00.032"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTTO.00.030\", \"LTTO.00.011\", \"LTTO.00.035\", \"LTTO.00.018\", \"LTTO.00.032\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 52,
+            "query": "on huvi ettevõtte alustamisega",
+            "expected_ids": [
+              "MJJV.03.184"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVPC.01.074",
+              "P2NC.01.050",
+              "SVPC.02.047",
+              "MTAT.03.293",
+              "MJJV.11.001"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MJJV.03.184"
+            ],
+            "unexpected_ids": [
+              "SVPC.01.074",
+              "P2NC.01.050",
+              "SVPC.02.047",
+              "MTAT.03.293",
+              "MJJV.11.001"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVPC.01.074",
+              "P2NC.01.050",
+              "SVPC.02.047"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MJJV.03.184"
+            ],
+            "unexpected_ids": [
+              "SVPC.01.074",
+              "P2NC.01.050",
+              "SVPC.02.047"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVPC.01.074\", \"P2NC.01.050\", \"SVPC.02.047\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 53,
+            "query": "tahan õppida midagi inimeste genoomikast",
+            "expected_ids": [
+              "LTGI.00.006"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTGI.00.006",
+              "LTMR.03.001",
+              "LTMR.01.005",
+              "ARMP.01.026",
+              "LOMR.03.010"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTMR.03.001",
+              "LTMR.01.005",
+              "ARMP.01.026",
+              "LOMR.03.010"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTGI.00.006",
+              "ARMP.01.026"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "ARMP.01.026"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTGI.00.006\", \"ARMP.01.026\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 54,
+            "query": "soovin arvutivõrkude kohta rohkem teada saada",
+            "expected_ids": [
+              "LTAT.06.004",
+              "LTAT.06.013"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVNC.00.337",
+              "LTAT.06.004",
+              "LTAT.06.004_1",
+              "LTAT.06.020",
+              "LTAT.02.001"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.06.013"
+            ],
+            "unexpected_ids": [
+              "SVNC.00.337",
+              "LTAT.06.004_1",
+              "LTAT.06.020",
+              "LTAT.02.001"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVNC.00.337",
+              "LTAT.06.004",
+              "LTAT.06.004_1"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.06.013"
+            ],
+            "unexpected_ids": [
+              "SVNC.00.337",
+              "LTAT.06.004_1"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVNC.00.337\", \"LTAT.06.004\", \"LTAT.06.004_1\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 55,
+            "query": "olen keemiahuviline",
+            "expected_ids": [
+              "LOKT.09.004"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOKT.00.022",
+              "LOKT.01.010",
+              "LTMR.08.001",
+              "LTKT.02.002",
+              "LTKT.01.002"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LOKT.09.004"
+            ],
+            "unexpected_ids": [
+              "LOKT.00.022",
+              "LOKT.01.010",
+              "LTMR.08.001",
+              "LTKT.02.002",
+              "LTKT.01.002"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOKT.00.022",
+              "LOKT.01.010",
+              "LTMR.08.001",
+              "LTKT.02.002",
+              "LTKT.01.002"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LOKT.09.004"
+            ],
+            "unexpected_ids": [
+              "LOKT.00.022",
+              "LOKT.01.010",
+              "LTMR.08.001",
+              "LTKT.02.002",
+              "LTKT.01.002"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOKT.00.022\", \"LOKT.01.010\", \"LTMR.08.001\", \"LTKT.02.002\", \"LTKT.01.002\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 56,
+            "query": "tahan õppida droonidega lendamist",
+            "expected_ids": [
+              "LOTI.05.109"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.109",
+              "LOTI.05.091",
+              "LOTI.05.057",
+              "LOTI.05.023",
+              "LOTI.05.088"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.091",
+              "LOTI.05.057",
+              "LOTI.05.023",
+              "LOTI.05.088"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.109"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.109\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 57,
+            "query": "tahan teha oma arvutimängu",
+            "expected_ids": [
+              "MTAT.03.263",
+              "LTAT.02.018"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.03.263",
+              "LOTI.05.021",
+              "LTAT.05.038",
+              "LTAT.02.018",
+              "LTAT.06.019"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.021",
+              "LTAT.05.038",
+              "LTAT.06.019"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MTAT.03.263",
+              "LTAT.02.018",
+              "LTAT.05.038"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.05.038"
+            ],
+            "raw_text": "{\"course_ids\": [\"MTAT.03.263\", \"LTAT.02.018\", \"LTAT.05.038\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 58,
+            "query": "tahan õppida kosmose kohta",
+            "expected_ids": [
+              "LTTO.00.011",
+              "LTTO.00.030",
+              "LTTO.00.018"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTTO.00.030",
+              "LTTO.00.011",
+              "LTTO.00.035",
+              "LTTO.00.019",
+              "LTTO.00.032"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTTO.00.018"
+            ],
+            "unexpected_ids": [
+              "LTTO.00.035",
+              "LTTO.00.019",
+              "LTTO.00.032"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTTO.00.030",
+              "LTTO.00.011",
+              "LTTO.00.035",
+              "LTTO.00.019",
+              "LTTO.00.032"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTTO.00.018"
+            ],
+            "unexpected_ids": [
+              "LTTO.00.035",
+              "LTTO.00.019",
+              "LTTO.00.032"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTTO.00.030\", \"LTTO.00.011\", \"LTTO.00.035\", \"LTTO.00.019\", \"LTTO.00.032\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 59,
+            "query": "tahan seeni korjata",
+            "expected_ids": [
+              "LTOM.01.005",
+              "LOOM.01.038"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOOM.01.035",
+              "MVST.00.003",
+              "MVCM.13.006",
+              "ARMB.01.055",
+              "ARMB.01.041"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTOM.01.005",
+              "LOOM.01.038"
+            ],
+            "unexpected_ids": [
+              "LOOM.01.035",
+              "MVST.00.003",
+              "MVCM.13.006",
+              "ARMB.01.055",
+              "ARMB.01.041"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOOM.01.035"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTOM.01.005",
+              "LOOM.01.038"
+            ],
+            "unexpected_ids": [
+              "LOOM.01.035"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOOM.01.035\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 60,
+            "query": "tahan pehmerobootikaga tegeleda",
+            "expected_ids": [
+              "LOTI.05.082"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.082",
+              "SVHI.02.025",
+              "LOTI.05.088",
+              "LOTI.05.010",
+              "LOTI.05.032"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "SVHI.02.025",
+              "LOTI.05.088",
+              "LOTI.05.010",
+              "LOTI.05.032"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.082"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.082\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 61,
+            "query": "tahan tegeleda origamiga",
+            "expected_ids": [
+              "LTMS.00.086"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTMS.00.086",
+              "LOKT.09.015",
+              "LTKT.09.003",
+              "LOKT.09.014",
+              "LOOM.01.108"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOKT.09.015",
+              "LTKT.09.003",
+              "LOKT.09.014",
+              "LOOM.01.108"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTMS.00.086"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LTMS.00.086\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 62,
+            "query": "tahan 3d printimisega tegeleda",
+            "expected_ids": [
+              "LOTI.05.039",
+              "LOTI.05.097"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.03.015",
+              "LOTI.05.039",
+              "LOTI.05.097",
+              "LTAT.02.025",
+              "LOFY.01.124"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTAT.03.015",
+              "LTAT.02.025",
+              "LOFY.01.124"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.097"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LOTI.05.039"
+            ],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.097\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 63,
+            "query": "tahan õppida 3d disaini",
+            "expected_ids": [
+              "LOFY.01.021",
+              "LOTI.05.097"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.03.263",
+              "MTAT.03.015",
+              "LTOM.03.035",
+              "LTOM.02.042",
+              "LOFY.03.079"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LOFY.01.021",
+              "LOTI.05.097"
+            ],
+            "unexpected_ids": [
+              "MTAT.03.263",
+              "MTAT.03.015",
+              "LTOM.03.035",
+              "LTOM.02.042",
+              "LOFY.03.079"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MTAT.03.263",
+              "LTOM.03.035",
+              "LTOM.02.042"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LOFY.01.021",
+              "LOTI.05.097"
+            ],
+            "unexpected_ids": [
+              "MTAT.03.263",
+              "LTOM.03.035",
+              "LTOM.02.042"
+            ],
+            "raw_text": "{\"course_ids\": [\"MTAT.03.263\", \"LTOM.03.035\", \"LTOM.02.042\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 64,
+            "query": "Tahan õppida termodünaamika seaduseid",
+            "expected_ids": [
+              "LOKT.02.037",
+              "LOFY.04.004"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTFY.01.006",
+              "LOFY.04.004",
+              "LTKT.02.015",
+              "LOKT.02.052",
+              "LOKT.02.037"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTFY.01.006",
+              "LTKT.02.015",
+              "LOKT.02.052"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTFY.01.006",
+              "LOFY.04.004",
+              "LOKT.02.052",
+              "LOKT.02.037"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTFY.01.006",
+              "LOKT.02.052"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTFY.01.006\", \"LOFY.04.004\", \"LOKT.02.052\", \"LOKT.02.037\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 65,
+            "query": "tahan õppida vaakumi kohta",
+            "expected_ids": [
+              "LOFY.01.026"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOFY.01.026",
+              "LOKT.01.010",
+              "LOKT.09.015",
+              "FLFI.03.119",
+              "LTFY.01.034"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOKT.01.010",
+              "LOKT.09.015",
+              "FLFI.03.119",
+              "LTFY.01.034"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOFY.01.026"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LOFY.01.026\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 66,
+            "query": "Sooviksin sulgpalli mängida",
+            "expected_ids": [
+              "KKSP.05.287",
+              "KKSP.00.026"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "KKSP.04.102_1",
+              "KKSP.00.026",
+              "KKSP.05.287",
+              "SVPH.00.062_1",
+              "SVPH.00.062"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "KKSP.04.102_1",
+              "SVPH.00.062_1",
+              "SVPH.00.062"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "KKSP.05.287"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "KKSP.00.026"
+            ],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"KKSP.05.287\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 67,
+            "query": "Tahan laulmisega tegeleda",
+            "expected_ids": [
+              "MV00.00.017",
+              "P2VK.04.584",
+              "P2VK.04.587"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MV00.00.018",
+              "MV00.00.017",
+              "P2VK.02.728",
+              "SHHI.02.001",
+              "HVVK.02.111"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "P2VK.04.584",
+              "P2VK.04.587"
+            ],
+            "unexpected_ids": [
+              "MV00.00.018",
+              "P2VK.02.728",
+              "SHHI.02.001",
+              "HVVK.02.111"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MV00.00.018",
+              "MV00.00.017"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "P2VK.04.584",
+              "P2VK.04.587"
+            ],
+            "unexpected_ids": [
+              "MV00.00.018"
+            ],
+            "raw_text": "{\"course_ids\": [\"MV00.00.018\", \"MV00.00.017\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 68,
+            "query": "Tahan baas teadmisi programmeerisel Javas",
+            "expected_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007",
+              "LTAT.03.003"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007",
+              "LTAT.03.003",
+              "LTAT.03.026",
+              "MTAT.03.236"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LTAT.03.026",
+              "MTAT.03.236"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "SVNC.00.335",
+              "LTAT.03.007",
+              "MTAT.03.236"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.03.003"
+            ],
+            "unexpected_ids": [
+              "MTAT.03.236"
+            ],
+            "raw_text": "{\"course_ids\": [\"SVNC.00.335\", \"LTAT.03.007\", \"MTAT.03.236\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 69,
+            "query": "Tahan robootikat õppida",
+            "expected_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088",
+              "LOTI.05.057",
+              "LOTI.05.032",
+              "SVHI.02.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.057",
+              "LOTI.05.032",
+              "SVHI.02.025"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.010",
+              "LOTI.05.088",
+              "LOTI.05.057",
+              "LOTI.05.032",
+              "SVHI.02.025"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "LOTI.05.057",
+              "LOTI.05.032",
+              "SVHI.02.025"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.010\", \"LOTI.05.088\", \"LOTI.05.057\", \"LOTI.05.032\", \"SVHI.02.025\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 70,
+            "query": "Tahan matemaatilist mõtlemist arendada",
+            "expected_ids": [
+              "MTMM.00.351"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTMM.00.351",
+              "MTMM.00.046",
+              "MTMM.00.152",
+              "HTHT.02.048",
+              "HTHT.07.022"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTMM.00.046",
+              "MTMM.00.152",
+              "HTHT.02.048",
+              "HTHT.07.022"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MTMM.00.351",
+              "HTHT.07.022"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "HTHT.07.022"
+            ],
+            "raw_text": "{\"course_ids\": [\"MTMM.00.351\", \"HTHT.07.022\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 71,
+            "query": "soovin 3d kujundusega midagi seoses õppida",
+            "expected_ids": [
+              "MTAT.03.015",
+              "LTOM.02.042",
+              "LTAT.02.018",
+              "HVVK.04.098"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOTI.05.097",
+              "LTAT.05.029",
+              "MTAT.03.263",
+              "LTOM.02.042",
+              "LTAT.05.040"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MTAT.03.015",
+              "LTAT.02.018",
+              "HVVK.04.098"
+            ],
+            "unexpected_ids": [
+              "LOTI.05.097",
+              "LTAT.05.029",
+              "MTAT.03.263",
+              "LTAT.05.040"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTOM.02.042"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "MTAT.03.015",
+              "LTAT.02.018",
+              "HVVK.04.098"
+            ],
+            "unexpected_ids": [],
+            "raw_text": "{\"course_ids\": [\"LTOM.02.042\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 72,
+            "query": "soovin õppida midagi füüsilise 3d millegiga",
+            "expected_ids": [
+              "LTAT.03.015",
+              "SVNC.00.051",
+              "LTBI.00.028"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOFY.01.124",
+              "HVVK.04.155",
+              "KKSB.01.036",
+              "LTOM.03.035",
+              "KKSB.01.034_1"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.03.015",
+              "SVNC.00.051",
+              "LTBI.00.028"
+            ],
+            "unexpected_ids": [
+              "LOFY.01.124",
+              "HVVK.04.155",
+              "KKSB.01.036",
+              "LTOM.03.035",
+              "KKSB.01.034_1"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTOM.03.035"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.03.015",
+              "SVNC.00.051",
+              "LTBI.00.028"
+            ],
+            "unexpected_ids": [
+              "LTOM.03.035"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTOM.03.035\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 73,
+            "query": "soovin midagi VR või mängudega seoses õppida",
+            "expected_ids": [
+              "LTAT.06.019",
+              "LTAT.02.019",
+              "MTAT.03.263",
+              "LTAT.01.003",
+              "LTAT.02.018"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LTAT.06.019",
+              "LTAT.02.019",
+              "LTAT.05.038",
+              "MTAT.03.263",
+              "LOTI.05.091"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.01.003",
+              "LTAT.02.018"
+            ],
+            "unexpected_ids": [
+              "LTAT.05.038",
+              "LOTI.05.091"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LTAT.06.019",
+              "LTAT.02.019",
+              "LTAT.05.038",
+              "MTAT.03.263"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.01.003",
+              "LTAT.02.018"
+            ],
+            "unexpected_ids": [
+              "LTAT.05.038"
+            ],
+            "raw_text": "{\"course_ids\": [\"LTAT.06.019\", \"LTAT.02.019\", \"LTAT.05.038\", \"MTAT.03.263\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 74,
+            "query": "soovin midagi masinate või cnc-ga õppida",
+            "expected_ids": [
+              "LTAT.01.003",
+              "SVNC.00.085",
+              "LTBI.00.027",
+              "LOTI.05.101"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "LOFY.03.001",
+              "LTAT.02.023",
+              "LOTI.05.097",
+              "LOTI.05.022",
+              "SVNC.00.085"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.01.003",
+              "LTBI.00.027",
+              "LOTI.05.101"
+            ],
+            "unexpected_ids": [
+              "LOFY.03.001",
+              "LTAT.02.023",
+              "LOTI.05.097",
+              "LOTI.05.022"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "LOTI.05.097",
+              "LOTI.05.022",
+              "SVNC.00.085"
+            ],
+            "passed": false,
+            "missing_ids": [
+              "LTAT.01.003",
+              "LTBI.00.027",
+              "LOTI.05.101"
+            ],
+            "unexpected_ids": [
+              "LOTI.05.097",
+              "LOTI.05.022"
+            ],
+            "raw_text": "{\"course_ids\": [\"LOTI.05.097\", \"LOTI.05.022\", \"SVNC.00.085\"]}"
+          }
+        },
+        {
+          "case": {
+            "row_number": 75,
+            "query": "soovin 3d printida",
+            "expected_ids": [
+              "LOTI.05.097"
+            ],
+            "expects_empty": false,
+            "parse_error": null
+          },
+          "retrieval": {
+            "returned_ids": [
+              "MTAT.03.015",
+              "LTAT.02.025",
+              "LOTI.05.097",
+              "LTAT.05.040",
+              "LOFY.01.021"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTAT.03.015",
+              "LTAT.02.025",
+              "LTAT.05.040",
+              "LOFY.01.021"
+            ],
+            "raw_text": null
+          },
+          "llm": {
+            "returned_ids": [
+              "MTAT.03.015",
+              "LOTI.05.097"
+            ],
+            "passed": true,
+            "missing_ids": [],
+            "unexpected_ids": [
+              "MTAT.03.015"
+            ],
+            "raw_text": "{\"course_ids\": [\"MTAT.03.015\", \"LOTI.05.097\"]}"
+          }
+        }
+      ]
+    }
+  }
+]

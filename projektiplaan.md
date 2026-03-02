@@ -76,22 +76,22 @@ Fookus: Tehisintellekti rakendamise süsteemi komponentide ja disaini kirjeldami
 ### 🟢 4.1 Komponentide valik ja koostöö
 Millist tüüpi tehisintellekti komponente on vaja rakenduses kasutada? Kas on vaja ka komponente, mis ei sisalda tehisintellekti? Kas komponendid on eraldiseisvad või sõltuvad üksteisest (keerulisem agentsem disan)?
 
-> ...
+> Vektoresituse mudel, (reranker mudel), LLM. Komponente rakendatakse üksteise järel.
 
 ### 🟢 4.2 Tehisintellekti lahenduste valik
 Milliseid mudeleid on plaanis kasutada? Kas kasutada valmis teenust (API) või arendada/majutada mudelid ise?
 
-> ...
+> LLMi kasutame API kaudu. Vektoresituse mudelit kasutame lokaalselt. ...
 
 ### 🟢 4.3 Kuidas hinnata rakenduse headust?
 Kuidas rakenduse arenduse käigus hinnata rakenduse headust?
 
-> ...
+> Vigade analüüs. Testjuhtude koostamine ja nende põhjal rakenduse headuse hindamine.
 
 ### 🟢 4.4 Rakenduse arendus
 Milliste sammude abil on plaanis/on võimalik rakendust järk-järgult parandada (viibadisain, erinevte mudelite testimine jne)?
 
-> ...
+> 
 
 
 ### 🟢 4.5 Riskijuhtimine
